@@ -1,8 +1,10 @@
 {
     "name": "thepatter/query-common",
     "description": "a query common of laravel",
+    "license": "MIT",
     "type": "library",
     "require": {
+        "thepatter/query-common":"dev-master"
     },
     "authors": [
         {
@@ -14,6 +16,16 @@
     "autoload": {
         "psr-4": {
             "QueryCommon\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "QueryCommon\\QueryServiceProvider"
+            ],
+            "aliases": {
+                "Mongo": "QueryCommon\\QueryFacade"
+            }
         }
     }
 }
