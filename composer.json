@@ -3,6 +3,7 @@
     "description": "a query common of laravel",
     "license": "MIT",
     "type": "library",
+    "version": "0.0.1",
     "require": {
         "thepatter/query-common":"dev-master"
     },
