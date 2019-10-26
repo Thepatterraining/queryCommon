@@ -2,7 +2,7 @@
 
 namespace QueryCommon;
 
-use Illuminate\Foundation\Support\ServiceProvider;
+use Illuminate\Support\ServiceProvider;
 
 class EventServiceProvider extends ServiceProvider
 {
