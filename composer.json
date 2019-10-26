@@ -1,0 +1,19 @@
+{
+    "name": "thepatter/query-common",
+    "description": "a query common of laravel",
+    "type": "library",
+    "require": {
+    },
+    "authors": [
+        {
+            "name": "Thepatterraining",
+            "email": "1476751823@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "QueryCommon\\": "src/"
+        }
+    }
+}
