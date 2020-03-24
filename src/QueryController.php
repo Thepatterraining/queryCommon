@@ -12,7 +12,7 @@ class QueryController extends Controller implements WithWheres
 
     protected $pageIndex;
     protected $pageSize;
-    protected $search;
+    protected $search = [];
 
     /**
      * 字典数组
@@ -75,7 +75,7 @@ class QueryController extends Controller implements WithWheres
 
     protected function getModel(){}
 
-    function getWheres($search): array
+    function getWheres(array $search): array
     {
         //默认大写转下划线， 如果有字段映射使用映射
         $where = [];

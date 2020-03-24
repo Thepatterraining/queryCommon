@@ -4,7 +4,7 @@ namespace QueryCommon;
 
 use Illuminate\Support\ServiceProvider;
 
-class EventServiceProvider extends ServiceProvider
+class QueryServiceProvider extends ServiceProvider
 {
 
     protected $defer = true;
